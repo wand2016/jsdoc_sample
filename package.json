@@ -1,0 +1,16 @@
+{
+  "name": "jsdoc_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -c ./.jsdoc/config.json code"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "github:jsdoc3/jsdoc",
+    "jsdoc-inheritance-diagram": "^1.2.3"
+  }
+}
