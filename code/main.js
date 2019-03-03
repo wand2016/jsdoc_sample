@@ -21,7 +21,7 @@ function Base() {
      * @description 何かします。
      * @protected
      * @function
-     * @name Base#someOperation
+     * @name Base#_someOperation
      * @abstract 
      * @return {Boolean} 成否
      */
@@ -55,7 +55,7 @@ Base.TYPE = {
      * @description 何かします。
      * @protected
      * @function
-     * @name Derived#someOperation
+     * @name Derived#_someOperation
      * @override 
      * @return {Boolean} 成否
      */
